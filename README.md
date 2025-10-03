@@ -55,7 +55,6 @@ base.html:
   </footer>
 </body>
 </html>
-
 administration.html:
 
 <!DOCTYPE html>
@@ -77,7 +76,7 @@ administration.html:
   </header>
 
   <section class="admin-team">
-    <h2>Meet Our Team</h2>
+    <h2 style="color: white;">Meet Our Team</h2>
     <div class="grid">
       <div><img src="admin1.png"><p><b>Mr. Ashwin Baalaji V K</b><br>Head Chef</p></div>
       <div><img src="admin2.png"><p><b>Mr. Linda</b><br>Manager</p></div>
@@ -115,10 +114,10 @@ contact.html:
   </header>
 
   <section class="contact">
-    <h2>Contact Us</h2>
-    <p><b>Address:</b> 123 dholakpur Street, Food City</p>
-    <p><b>Phone:</b> +91 9876543210</p>
-    <p><b>Email:</b> idlykadai@gmail.com</p>
+    <h2 style="color: white;">Contact Us</h2>
+    <p style="color: white;"><b>Address:</b> 123 dholakpur Street, Food City</p>
+    <p style="color: white;"><b>Phone:</b> +91 9876543210</p>
+    <p style="color: white;"><b>Email:</b> idlykadai@gmail.com</p>
   </section>
 
   <footer>
@@ -148,7 +147,7 @@ menu.html:
   </header>
 
   <section class="menu-grid">
-    <h2>Our Colorful Menu</h2>
+    <h2 style="color: white;">Our Colorful Menu</h2>
     <div class="grid">
       <div><img src="food1.png"><p>Chicken Burger — ₹260</p>
 </div>
@@ -209,8 +208,8 @@ home.html:
   </section>
 
   <section class="intro">
-    <h2>About Us</h2>
-    <p>
+    <h2 style="color: white;">About Us</h2>
+    <p style="color: white;">
       At Idlykadai Restaurant, every dish tells a story. We bring together authentic flavors, 
       fresh ingredients, and vibrant presentation to create unforgettable dining experiences.
     </p>
@@ -222,20 +221,21 @@ home.html:
 </body>
 </html>
 
+
 style.css:
 
 /* General */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #ffffff;
+  background: #000000;
   color: #040202;
 }
 
 /* Header */
 header {
   background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff9770);
-  color: rgb(255, 253, 253);
+  color: rgb(0, 0, 0);
   padding: 15px;
   text-align: center;
 }
@@ -244,7 +244,7 @@ nav {
   margin-top: 10px;
 }
 nav a {
-  color: rgb(251, 246, 246);
+  color: rgb(255, 254, 254);
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -280,7 +280,7 @@ section {
 .grid div {
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
   padding: 15px;
   transition: transform 0.3s;
 }
@@ -299,8 +299,8 @@ section {
 
 /* Footer */
 footer {
-  background: #000000;
-  color: rgb(250, 248, 248);
+  background: #ffffff;
+  color: rgb(1, 1, 1);
   text-align: center;
   padding: 15px;
 }
@@ -308,10 +308,13 @@ footer {
 
 ```
 # OUTPUT:
-<img width="1919" height="1141" alt="Screenshot 2025-10-03 215621" src="https://github.com/user-attachments/assets/78ed7205-8e3b-4186-a149-1e4540b11373" />
-<img width="1919" height="1127" alt="Screenshot 2025-10-03 215649" src="https://github.com/user-attachments/assets/5b2905cf-4d4a-4ab3-b4b3-e925e6aece5f" />
-<img width="1919" height="1127" alt="Screenshot 2025-10-03 215712" src="https://github.com/user-attachments/assets/6bfb22bb-94e6-44ef-a473-91997bacf427" />
-<img width="1919" height="1110" alt="Screenshot 2025-10-03 215730" src="https://github.com/user-attachments/assets/dc6dffe0-89bf-46e5-a4b4-c098aefbfcc1" />
+<img width="1919" height="1125" alt="Screenshot 2025-10-03 223604" src="https://github.com/user-attachments/assets/130f7f49-987b-427a-b59e-c6f2ea23e8d4" />
+<img width="1919" height="1121" alt="Screenshot 2025-10-03 223627" src="https://github.com/user-attachments/assets/5f7f5906-95a3-4302-8460-66b0da996228" />
+<img width="1919" height="1128" alt="Screenshot 2025-10-03 223646" src="https://github.com/user-attachments/assets/21a3a137-7b9f-47e4-baa9-ffed2e89fe35" />
+<img width="1919" height="1131" alt="Screenshot 2025-10-03 223704" src="https://github.com/user-attachments/assets/fc87a51f-6f9a-45fc-9ed5-ace9370e0910" />
+
+
+
 
 
 
