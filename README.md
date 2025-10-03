@@ -221,6 +221,91 @@ home.html:
   </footer>
 </body>
 </html>
+
+style.css:
+
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #040202;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff9770);
+  color: rgb(255, 253, 253);
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: rgb(251, 246, 246);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a.active {
+  border-bottom: 2px solid yellow;
+}
+
+/* Banner */
+.banner {
+  background: url('Screenshot 2025-10-03 212928.png') no-repeat center/cover;
+  color: rgb(255, 255, 255);
+  padding: 80px 20px;
+  text-align: center;
+}
+.banner h2 {
+  font-size: 40px;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.grid div {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.3s;
+}
+.grid div:hover {
+  transform: translateY(-5px);
+}
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Contact */
+.contact p {
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  background: #000000;
+  color: rgb(250, 248, 248);
+  text-align: center;
+  padding: 15px;
+}
+
+
 ```
 # OUTPUT:
 <img width="1919" height="1141" alt="Screenshot 2025-10-03 215621" src="https://github.com/user-attachments/assets/78ed7205-8e3b-4186-a149-1e4540b11373" />
